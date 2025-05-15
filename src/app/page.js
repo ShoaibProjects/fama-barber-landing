@@ -1,7 +1,7 @@
 "use client"
 import { useState, useEffect } from 'react';
 import Head from 'next/head';
-import Image from 'next/image';
+// import Image from 'next/image';
 
 export default function Home() {
   const [email, setEmail] = useState('');
@@ -243,7 +243,7 @@ export default function Home() {
                 <div className="text-yellow-500">★★★★★</div>
                 <div className="ml-2 text-gray-600">5.0</div>
               </div>
-              <p className="text-gray-600 mb-4">"The best haircut I've ever had! The barbers really take their time and make sure you leave looking your best."</p>
+              <p className="text-gray-600 mb-4">&ldquo;The best haircut I&lsquo;ve ever had! The barbers really take their time and make sure you leave looking your best.&ldquo;</p>
               <div className="font-semibold">- Michael T.</div>
             </div>
             
@@ -252,7 +252,7 @@ export default function Home() {
                 <div className="text-yellow-500">★★★★☆</div>
                 <div className="ml-2 text-gray-600">4.0</div>
               </div>
-              <p className="text-gray-600 mb-4">"Great atmosphere and skilled barbers. A bit on the pricey side but the quality is there. I'm a regular customer."</p>
+              <p className="text-gray-600 mb-4">&ldquo;Great atmosphere and skilled barbers. A bit on the pricey side but the quality is there. I&lsquo;m a regular customer.&ldquo;</p>
               <div className="font-semibold">- David R.</div>
             </div>
             
@@ -261,13 +261,13 @@ export default function Home() {
                 <div className="text-yellow-500">★★★★★</div>
                 <div className="ml-2 text-gray-600">5.0</div>
               </div>
-              <p className="text-gray-600 mb-4">"The beard trim was perfect! Friendly staff and very professional service. Will definitely come back."</p>
+              <p className="text-gray-600 mb-4">&ldquo;The beard trim was perfect! Friendly staff and very professional service. Will definitely come back.&ldquo;</p>
               <div className="font-semibold">- James L.</div>
             </div>
           </div>
           
           <div className="mt-8 text-center italic text-gray-600">
-            <p>"Costly compared to other barbershops with better haircuts."</p>
+            <p>&ldquo;Costly compared to other barbershops with better haircuts.&ldquo;</p>
             <p className="mt-2">Our overall rating: <span className="text-yellow-500 font-bold">4.6★</span> based on 116+ reviews</p>
           </div>
         </div>
